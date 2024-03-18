@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(32 33 36);
+    color: white
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 23px;
+    font-size: 13.5px;
+    margin-right: 2vw;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    cursor: pointer;
+}
+
+.gb_n {
+    border-radius: 50%;
+    height: 34px;
+}
+
+
+
+li>img {
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 76.5vh;
+}
+
+.container1 img {
+    height: 18vh;
+    width: 25vw;
+}
+
+.container1 {
+    margin-top: 2vh;
+}
+
+.box {
+    display: flex;
+    margin-top: 4vh;
+    align-items: center;
+    width: 46vw;
+    height: 7vh;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #585c60;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.search {
+    position: absolute;
+    z-index: 1;
+    height: 16px;
+    padding-left: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+/* textarea{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 3vw;
+    width: 35vw;
+    height: 5vh;
+    font-size: 2.5vh;
+    color: white;
+} */
+
+
+textarea {
+    font-family: arial, sans-serif;
+    line-height: 22px;
+    /* border: 2px solid red; */
+    margin-bottom: 8px;
+    overflow:hidden;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    bottom: 0.8vh;
+    width: 35vw;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    position: absolute;
+    left: 3vw;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.gLFyf,
+.ql1tMb,
+.YacQv {
+    line-height: 34px;
+    font-size: 16px;
+    flex: 100%;
+}
+
+user agent stylesheet textarea {
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: -internal-textarea-auto;
+    cursor: text;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+    white-space: pre-wrap;
+}
+button{
+    position: absolute;
+    right: 0.2vw;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(39, 40, 43);
+    border: none;
+    color: white;
+    padding: 0 5px;
+    top: 0%;
+    cursor:pointer;
+    height: 7vh;
+    font-size: 15px;
+}
+button:hover{
+    filter: brightness(150%);
+}
+.container3 ul{
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    margin-top: 5vh;
+    justify-content: center;
+    width: 25vw;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: #b3b5b7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #b3b5b7;
+}
+
+.container4 ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 5vh;
+    justify-content: center;
+    width: 25vw;
+    font-size: 15px;
+}
+.container4 a{
+    color: rgb(137, 137, 255);
+}
+.container4 .offer{
+    color: #b3b5b7;
+    padding-right: 8px;
+    font-size: 16px;
+}
+.container5{
+    background-color: #171717;
+    height: 15vh;
+    box-sizing: border-box;
+    margin-top: 8px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    position: relative;
+    background-color: #585c60;
+    left: 0;
+}
+span{
+    align-self: flex-start;
+    justify-self: center;
+    bottom: 1.6vh;
+    position: relative;
+    left: 1.8vw;
+    color: #b3b5b7;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.container5 ul{
+    list-style: none;
+    display: flex;
+    width: 98%;
+    position: relative;
+    padding-top: 18px;
+    gap: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    left: 12px;
+    color: #b3b5b7;
+}
+.container5 li:hover{
+    text-decoration: underline;
+    text-decoration-color:#b3b5b7;
+}
